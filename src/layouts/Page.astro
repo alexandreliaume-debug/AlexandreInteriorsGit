@@ -1,24 +1,41 @@
 ---
 import Base from './Base.astro';
+import Banner from '../components/Banner.astro';
 
 interface Props {
   title: string;
   description?: string;
   heading?: string;
+  bannerImage?: string;
+  bannerAlt?: string;
+  transparentHeader?: boolean;
 }
 
-const { title, description, heading = title } = Astro.props;
+const {
+  title,
+  description,
+  heading = title,
+  bannerImage,
+  bannerAlt = '',
+  transparentHeader = !!bannerImage,
+} = Astro.props;
 ---
 
-<Base title={title} description={description}>
-  <section class="page-hero">
-    <div class="container">
-      <h1>{heading}</h1>
+<Base title={title} description={description} transparentHeader={transparentHeader}>
+  {bannerImage && (
+    <Banner image={bannerImage} alt={bannerAlt}>
+      <slot name="banner" />
+    </Banner>
+  )}
+
+  <div class="main-content">
+    <div class="sqs-layout page-width">
+      {heading && (
+        <h1 class:list={['page-title', { 'page-title--below-banner': bannerImage }]}>{heading}</h1>
+      )}
+      <div class="prose">
+        <slot />
+      </div>
     </div>
-  </section>
-  <section class="page-content">
-    <div class="container prose">
-      <slot />
-    </div>
-  </section>
+  </div>
 </Base>

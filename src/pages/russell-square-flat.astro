@@ -3,14 +3,24 @@ import Page from '../layouts/Page.astro';
 
 const images = [
   '/images/1573807337397-428DCP2PWVXFC1SIFFRN/MClayton_1707-9-PL-TEE_005__D-Lres.jpg',
+  '/images/1563982449540-1V0AEU0ZF27ZIF2M52R4/Kitchen1.jpg',
+  '/images/1563982526277-JV4AJ71GZLEAE60R2O1M/Kitchen2.jpg',
+  '/images/1563982547427-SSJ5ER0P4LB0AULSWIF8/Shower1.jpg',
+  '/images/1563982565982-2U8RDMR5C64J5GCJJ8GL/Ensuite1.jpg',
   '/images/1502467559673-VAYK1ALWFG2IJC5MKMGR/MClayton_1701-A-PERS-ALE_037_D-Lres.jpg',
-  '/images/1498472845344-X4LATOYKSK530GXNY1Z3/MClayton_1701-A-PERS-ALE_009_D-Lres.jpg',
 ];
 ---
 
-<Page title="Russell Square Flat" heading="Modern Art Deco style in this Russell Square flat">
-  <p><strong>Kitchen and bathrooms refurbishment</strong></p>
-  <p>A Russell Square apartment refreshed with Art Deco influences — practical kitchen and bathroom layouts with a refined, contemporary feel.</p>
+<Page
+  title="Russell Square Flat"
+  bannerImage="/images/1563982101789-PPZBW7VGP9ZEC2M0SFN6/MClayton_1701-A-PERS-ALE_009_D-Lres.jpg"
+  bannerAlt="Russell Square flat"
+  heading=""
+>
+  <Fragment slot="banner">
+    <p><strong>Modern Art Deco style in this Russell Square flat</strong></p>
+    <p>KITCHEN AND BATHROOMS REFURBISHMENT</p>
+  </Fragment>
 
   <div class="gallery">
     {images.map((src) => (

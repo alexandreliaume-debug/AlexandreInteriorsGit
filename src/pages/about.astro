@@ -2,7 +2,17 @@
 import Page from '../layouts/Page.astro';
 ---
 
-<Page title="About" heading="More than just an interior designer, Alexandre designs spaces that feel like home.">
+<Page
+  title="About"
+  bannerImage="/images/1517083466013-NRQYM3M6FS5OX2FUYO2X/MClayton_1707-9-PL-TEE_027__D-Lres.jpg"
+  bannerAlt="Interior design by Alexandre Liaume"
+  heading="More than just an interior designer, Alexandre designs spaces that feel like home."
+>
+  <Fragment slot="banner">
+    <p><strong>Alexandre Liaume</strong></p>
+    <p>Interior designer</p>
+  </Fragment>
+
   <p>Alexandre Liaume was born in the Loire Valley and has lived in Ireland, Mexico and, for the last eighteen years, in London which he now considers his home. His interior design work has featured in Houzz and Period Living.</p>
 
   <p>Alexandre combines his eclectic style, French background and passion for London living in a unique vision. The resultant spaces are colourful, tasteful and beautiful whilst also being natural, organic and easy to live in. When Alexandre designs for you, whether it is your home or business, his designs will reflect your personality, your life, and what you want to use the space for — as if you had been born to enjoy it.</p>

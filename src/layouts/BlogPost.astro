@@ -15,28 +15,28 @@ const posts = (await getCollection('blog'))
 ---
 
 <Base title={title} description={description}>
-  <article class="page-content">
-    <div class="container prose">
-      <header class="post-header">
-        <p class="meta">{date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
-        <h1>{title}</h1>
-      </header>
-      <slot />
-    </div>
-  </article>
+  <div class="main-content">
+    <div class="sqs-layout page-width">
+      <article class="prose">
+        <header class="post-header">
+          <p class="meta">{date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+          <h1>{title}</h1>
+        </header>
+        <slot />
+      </article>
 
-  {posts.length > 1 && (
-    <section class="related-posts">
-      <div class="container">
-        <h2>More from the blog</h2>
-        <ul class="post-list">
-          {posts.slice(0, 4).map((post) => (
-            <li>
-              <a href={`/blog/${post.data.permalink}`}>{post.data.title}</a>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </section>
-  )}
+      {posts.length > 1 && (
+        <section class="related-posts">
+          <h2>More from the blog</h2>
+          <ul class="post-list">
+            {posts.slice(0, 4).map((post) => (
+              <li>
+                <a href={`/blog/${post.data.permalink}`}>{post.data.title}</a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </div>
+  </div>
 </Base>

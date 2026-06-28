@@ -2,13 +2,27 @@
 import Page from '../../layouts/Page.astro';
 
 const images = [
-  '/images/1500152481849-A64SNI83LKK6X83AGQV4/image-asset.jpeg',
-  '/images/1537714675585-UMU1KG1GMY645MLXGVYT/_45861528_eltham_virginia_coutauldsbedroom.jpg',
+  '/images/1573807257139-ACP8QBTR46RLGXZM0RBB/AlexandreInteriors-HoxtonFlat-LivingRoom.jpg',
+  '/images/1573807403607-Y5KTFSEXUVKZAK1OUK3Q/MClayton_1707-9-PL-TEE_012__D-Lres.jpg',
+  '/images/1573807458888-D0Q50N31VZA4G8SMDRB8/MClayton_1707-9-PL-TEE_014_Interiors-of-flat_D-Lres.jpg',
+  '/images/1573807475271-HC6ZLMHZ19W989QZ7HGH/MClayton_1707-9-PL-TEE_015_Interiors-of-flat_D-Lres.jpg',
+  '/images/1573807498006-04DPDM7M680QC7RNLG1X/MClayton_1707-9-PL-TEE_019__D-Lres.jpg',
+  '/images/1573807518380-E6VQA7366CDEKY6A1AUZ/MClayton_1707-9-PL-TEE_023__D-Lres.jpg',
+  '/images/1573807783108-KD2LHZPKG31WMFJDHRUG/MClayton_1707-9-PL-TEE_048_Interiors-of-flat_D-Lres.jpg',
+  '/images/1573807825820-GAUMOED9OVTGZSLW65BM/MClayton_1707-9-PL-TEE_035__D-Lres.jpg',
 ];
 ---
 
-<Page title="Hoxton Flat" heading="Hoxton flat refurbishment">
-  <p>Making a stylish and cosy home in London.</p>
+<Page
+  title="Hoxton Flat"
+  bannerImage="/images/1573807257139-ACP8QBTR46RLGXZM0RBB/AlexandreInteriors-HoxtonFlat-LivingRoom.jpg"
+  bannerAlt="Hoxton flat"
+  heading=""
+>
+  <Fragment slot="banner">
+    <p><strong>Hoxton flat refurbishment</strong></p>
+    <p>Making a stylish and cosy home in London</p>
+  </Fragment>
 
   <div class="gallery">
     {images.map((src) => (

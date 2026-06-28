@@ -1,18 +1,33 @@
 ---
 import Page from '../layouts/Page.astro';
+
+const projects = [
+  {
+    title: 'RUSSEL SQUARE Flat',
+    href: '/russell-square-flat',
+    image: '/images/1563982132100-YI50VAD2KDFU70UUEAPN/Kitchen1.jpg',
+    text: 'Modern Art deco flat..',
+  },
+  {
+    title: 'Hoxton Flat',
+    href: '/portfolio/hoxton',
+    image: '/images/1563982101789-PPZBW7VGP9ZEC2M0SFN6/MClayton_1701-A-PERS-ALE_009_D-Lres.jpg',
+    text: 'Making a stylish and cosy home in London.',
+  },
+];
 ---
 
 <Page title="Portfolio" heading="Portfolio">
   <div class="portfolio-grid">
-    <article class="card">
-      <h3><a href="/russell-square-flat">Russell Square Flat</a></h3>
-      <p>Modern Art Deco flat.</p>
-      <p><a href="/russell-square-flat">View photos</a></p>
-    </article>
-    <article class="card">
-      <h3><a href="/portfolio/hoxton">Hoxton Flat</a></h3>
-      <p>Making a stylish and cosy home in London.</p>
-      <p><a href="/portfolio/hoxton">View photos</a></p>
-    </article>
+    {projects.map((project) => (
+      <article class="portfolio-item">
+        <a href={project.href}>
+          <img src={project.image} alt={project.title} loading="lazy" />
+        </a>
+        <h3><a href={project.href}>{project.title}</a></h3>
+        <p>{project.text}</p>
+        <p><a href={project.href}>View photos</a></p>
+      </article>
+    ))}
   </div>
 </Page>

@@ -1,0 +1,19 @@
+---
+interface Props {
+  image: string;
+  alt?: string;
+  tall?: boolean;
+}
+
+const { image, alt = '', tall = true } = Astro.props;
+---
+
+<div class:list={['banner-thumbnail-wrapper', 'has-description', { tall }]}>
+  <div class="color-overlay"></div>
+  <figure class="banner-figure">
+    <img src={image} alt={alt} />
+  </figure>
+  <div class="desc-wrapper">
+    <slot />
+  </div>
+</div>

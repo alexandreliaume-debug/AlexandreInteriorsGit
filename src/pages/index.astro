@@ -1,38 +1,46 @@
 ---
 import Base from '../layouts/Base.astro';
+import Banner from '../components/Banner.astro';
+
+const services = [
+  {
+    image: '/images/1500152764492-PBOQJZJV2LD7OYTO1SCR/image-asset.jpeg',
+    title: 'HOME INTERIORS',
+    text: 'Spaces for living',
+  },
+  {
+    image: '/images/1500152481849-A64SNI83LKK6X83AGQV4/image-asset.jpeg',
+    title: 'OUTDOOR SPACE',
+    text: 'Versatile outdoor spaces',
+  },
+  {
+    image: '/images/1500152585660-WCFGRADL3DO9LL7LZ39S/Lima01.jpg',
+    title: 'COMMERCIAL',
+    text: 'Restaurant, hotels, bars,',
+  },
+];
 ---
 
-<Base title="Home" description="If you are looking to create your ideal interior, Alexandre will help you design a space you enjoy returning to and spending time in.">
-  <section class="home-hero">
-    <div class="container">
-      <p class="meta" style="color: rgba(255,255,255,0.85); text-transform: uppercase; letter-spacing: 0.1em;">Alexandre Liaume — Interior Designer</p>
-      <h1>Personal and unique designs for living spaces.</h1>
-      <p>If you are looking to create your ideal interior, Alexandre will help you design a space you enjoy returning to and spending time in.</p>
-      <a class="button" href="/portfolio">View My Work</a>
-    </div>
+<Base title="Home" description="If you are looking to create your ideal interior, Alexandre will help you design a space you enjoy returning to and spending time in." transparentHeader={true}>
+  <section class="index-hero">
+    <Banner image="/images/1498472845344-X4LATOYKSK530GXNY1Z3/MClayton_1701-A-PERS-ALE_009_D-Lres.jpg" alt="Alexandre Interiors portfolio" tall={false}>
+      <p>Alexandre Liaume - Interior Designer</p>
+      <p><strong>Personal and unique designs for living spaces.</strong></p>
+      <p><a href="/portfolio">View My Work</a></p>
+    </Banner>
   </section>
 
-  <section class="section">
-    <div class="container">
-      <h2>Services</h2>
-      <p class="section-intro">Elegant, practical interior designs for homes, offices, shops, restaurants, bars and communities.</p>
-      <div class="services-grid">
-        <article class="card">
-          <h3>Home Interiors</h3>
-          <p>Spaces for living — colourful, tasteful and beautiful whilst also being natural, organic and easy to live in.</p>
-          <p><a href="/services">Learn more</a></p>
-        </article>
-        <article class="card">
-          <h3>Outdoor Space</h3>
-          <p>Versatile outdoor spaces designed to extend how you live and entertain.</p>
-          <p><a href="/services">Learn more</a></p>
-        </article>
-        <article class="card">
-          <h3>Commercial</h3>
-          <p>Restaurant, hotels, bars — interiors with personality that work for your business.</p>
-          <p><a href="/services">Learn more</a></p>
-        </article>
-      </div>
-    </div>
+  <section class="home-intro page-width">
+    <h1>If you are looking to create your ideal interior, Alexandre will help you design a space you enjoy returning to and spending time in.</h1>
+  </section>
+
+  <section class="service-columns page-width">
+    {services.map((service) => (
+      <article class="service-column">
+        <img src={service.image} alt={service.title} loading="lazy" />
+        <h3>{service.title}</h3>
+        <p>{service.text}</p>
+      </article>
+    ))}
   </section>
 </Base>

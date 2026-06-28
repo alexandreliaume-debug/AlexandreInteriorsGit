@@ -4,10 +4,33 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description?: string;
+  transparentHeader?: boolean;
+  currentPath?: string;
 }
 
-const { title, description = 'Personal and unique designs for living spaces. Interior design for homes, offices, restaurants and bars in London.' } = Astro.props;
+const {
+  title,
+  description = 'Personal and unique designs for living spaces. Interior design for homes, offices, restaurants and bars in London.',
+  transparentHeader = false,
+  currentPath = Astro.url.pathname,
+} = Astro.props;
+
 const fullTitle = title === 'Home' ? 'Alexandre Interiors' : `${title} — Alexandre Interiors`;
+
+const navItems = [
+  { href: '/about', label: 'About' },
+  { href: '/services', label: 'Services' },
+  { href: '/portfolio', label: 'Portfolio' },
+  { href: '/inspiration', label: 'Inspiration' },
+  { href: '/blog', label: 'Blog' },
+  { href: '/press', label: 'Press' },
+  { href: '/contact-us', label: 'Contact' },
+];
+
+const isActive = (href: string) => {
+  if (href === '/') return currentPath === '/' || currentPath === '/index.html';
+  return currentPath === href || currentPath.startsWith(`${href}/`);
+};
 ---
 
 <!doctype html>
@@ -18,47 +41,61 @@ const fullTitle = title === 'Home' ? 'Alexandre Interiors' : `${title} — Alexa
     <meta name="description" content={description} />
     <link rel="icon" href="/images/1502979797795-KXFWRA4NXHJH3X5LST7Q/favicon.ico" />
     <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).href} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
     <title>{fullTitle}</title>
   </head>
-  <body>
-    <header class="site-header">
-      <div class="container header-inner">
-        <a class="logo" href="/">Alexandre Interiors</a>
-        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
-        <nav class="site-nav" aria-label="Main">
-          <a href="/about">About</a>
-          <a href="/services">Services</a>
-          <a href="/portfolio">Portfolio</a>
-          <a href="/inspiration">Inspiration</a>
-          <a href="/blog">Blog</a>
-          <a href="/press">Press</a>
-          <a href="/contact-us">Contact</a>
+  <body class:list={[{ 'transparent-header': transparentHeader, 'has-banner-image': transparentHeader }]}>
+    <header id="header" class="site-header">
+      <div class="header-inner">
+        <div id="logoWrapper">
+          <a href="/">
+            <img
+              src="/images/1533459442163-4PXFYJ3ZVVFMWKL3RP9J/Alexandre-Interiors-White.png"
+              alt="Alexandre Interiors"
+              width="220"
+              height="46"
+            />
+          </a>
+        </div>
+
+        <button class="mobile-nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav id="mainNavigation" class="site-nav" aria-label="Main">
+          {navItems.map((item) => (
+            <a href={item.href} class:list={[{ active: isActive(item.href) }]}>
+              {item.label}
+            </a>
+          ))}
         </nav>
       </div>
     </header>
 
-    <main>
+    <main id="page" role="main">
       <slot />
     </main>
 
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <p>Alexandre Liaume — Interior Designer, London</p>
-        <p>
-          <a href="mailto:alex@alexandreinteriors.com">alex@alexandreinteriors.com</a>
-          · <a href="https://instagram.com/alexandreinteriors" rel="noopener noreferrer">Instagram</a>
-          · <a href="https://www.houzz.co.uk/pro/alexandre-liaume/alexandre-liaume" rel="noopener noreferrer">Houzz</a>
-        </p>
-      </div>
-    </footer>
-
     <script>
-      const toggle = document.querySelector('.nav-toggle');
+      const header = document.getElementById('header');
+      const toggle = document.querySelector('.mobile-nav-toggle');
       const nav = document.querySelector('.site-nav');
+
       toggle?.addEventListener('click', () => {
         const open = nav?.classList.toggle('open');
         toggle.setAttribute('aria-expanded', String(!!open));
+        document.body.classList.toggle('nav-open', !!open);
       });
+
+      if (document.body.classList.contains('transparent-header')) {
+        const onScroll = () => {
+          header?.classList.toggle('is-scrolled', window.scrollY > 80);
+        };
+        onScroll();
+        window.addEventListener('scroll', onScroll, { passive: true });
+      }
     </script>
   </body>
 </html>
