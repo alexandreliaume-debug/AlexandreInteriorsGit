@@ -3,6 +3,7 @@ title: 'Combining French interiors elegance and British interiors edge'
 description: 'How French and British design influences shape Alexandre Liaume interior design approach.'
 date: 2018-06-01
 permalink: 'combining-french-interiors-elegance-and-british-interiors-edge'
+galleryKey: 'blog-french'
 ---
 
 As a French person who has lived in the UK since 2003, I feel influenced by both French interiors and British interiors. As an interior designer, this is an advantage as it gives me more styles to play with and opens my sensitivity to both nations and beyond.

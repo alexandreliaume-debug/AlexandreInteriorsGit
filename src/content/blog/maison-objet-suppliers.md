@@ -3,6 +3,7 @@ title: 'Sourcing the best interior suppliers — brands that impressed me at Mai
 description: 'Highlights from Maison & Objet Paris and the suppliers that stood out.'
 date: 2018-10-01
 permalink: 'sourcing-the-best-interior-suppliers-the-brands-that-impressed-me-at-maison-amp-objet'
+galleryKey: 'blog-maison'
 ---
 
 In September 2018, I went for the first time to Maison & Objet, an international interior trade show in Paris for the trade. This was the opportunity for me to scour the market and find new suppliers.

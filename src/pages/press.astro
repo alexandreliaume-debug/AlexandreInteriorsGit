@@ -1,5 +1,9 @@
 ---
 import Page from '../layouts/Page.astro';
+import Gallery from '../components/Gallery.astro';
+import { getGallery } from '../lib/galleries';
+
+const images = getGallery('press');
 ---
 
 <Page title="Press" heading="Press">
@@ -7,8 +11,6 @@ import Page from '../layouts/Page.astro';
   <ul>
     <li><a href="https://www.houzz.co.uk/pro/alexandre-liaume/alexandre-liaume" rel="noopener noreferrer">Houzz profile</a></li>
   </ul>
-  <div class="gallery">
-    <img src="/images/1539611946465-Y08E9ADWBDU0N8L3MRKE/RealHomes-Interior_designer-London.jpg" alt="Real Homes feature" loading="lazy" />
-    <img src="/images/1539612042823-GGPLXD0ZXPJ7YSDWLTK5/Screenshot-2018-10-15-15.00.30.png" alt="Press coverage" loading="lazy" />
-  </div>
+
+  <Gallery images={images} alt="Press coverage for Alexandre Interiors" columns={2} />
 </Page>

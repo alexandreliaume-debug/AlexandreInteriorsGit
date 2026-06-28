@@ -358,14 +358,33 @@ body:not(.transparent-header) .mobile-nav-toggle span,
 .gallery {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   margin: 2rem 0;
 }
 
-.gallery img {
-  aspect-ratio: 4 / 3;
+.gallery--cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery--cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery--cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery-item {
+  margin: 0;
+}
+
+.gallery-item img {
+  aspect-ratio: 1;
   object-fit: cover;
   width: 100%;
+}
+
+.gallery--cols-2 .gallery-item img {
+  aspect-ratio: 4 / 3;
 }
 
 /* Blog */
@@ -417,8 +436,10 @@ body:not(.transparent-header) .mobile-nav-toggle span,
 
 @media (max-width: 900px) {
   .service-columns,
-  .portfolio-grid {
-    grid-template-columns: 1fr;
+  .portfolio-grid,
+  .gallery--cols-3,
+  .gallery--cols-4 {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -469,6 +490,12 @@ body:not(.transparent-header) .mobile-nav-toggle span,
   .banner-thumbnail-wrapper.tall,
   .index-hero .banner-thumbnail-wrapper {
     padding: 140px 0 120px;
+  }
+
+  .gallery--cols-2,
+  .gallery--cols-3,
+  .gallery--cols-4 {
+    grid-template-columns: 1fr;
   }
 
   .desc-wrapper strong {

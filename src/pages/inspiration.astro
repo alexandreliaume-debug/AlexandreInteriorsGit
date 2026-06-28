@@ -1,5 +1,9 @@
 ---
 import Page from '../layouts/Page.astro';
+import Gallery from '../components/Gallery.astro';
+import { getGallery } from '../lib/galleries';
+
+const images = getGallery('inspiration');
 ---
 
 <Page title="Inspiration" heading="Interior design inspiration">
@@ -7,4 +11,6 @@ import Page from '../layouts/Page.astro';
   <p>
     <a href="https://instagram.com/alexandreinteriors" rel="noopener noreferrer">Follow @alexandreinteriors on Instagram</a>
   </p>
+
+  <Gallery images={images} alt="Interior design inspiration photograph" columns={4} />
 </Page>

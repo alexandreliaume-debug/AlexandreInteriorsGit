@@ -1,14 +1,18 @@
 ---
 import Base from './Base.astro';
 import { getCollection } from 'astro:content';
+import Gallery from '../components/Gallery.astro';
+import { getGallery } from '../lib/galleries';
 
 interface Props {
   title: string;
   date: Date;
   description?: string;
+  galleryKey?: string;
 }
 
-const { title, date, description } = Astro.props;
+const { title, date, description, galleryKey } = Astro.props;
+const gallery = galleryKey ? getGallery(galleryKey) : [];
 const posts = (await getCollection('blog'))
   .filter((p) => !p.data.draft)
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
@@ -23,13 +27,14 @@ const posts = (await getCollection('blog'))
           <h1>{title}</h1>
         </header>
         <slot />
+        {gallery.length > 0 && <Gallery images={gallery} alt={title} columns={2} />}
       </article>
 
       {posts.length > 1 && (
         <section class="related-posts">
           <h2>More from the blog</h2>
           <ul class="post-list">
-            {posts.slice(0, 4).map((post) => (
+            {posts.slice(0, 5).map((post) => (
               <li>
                 <a href={`/blog/${post.data.permalink}`}>{post.data.title}</a>
               </li>

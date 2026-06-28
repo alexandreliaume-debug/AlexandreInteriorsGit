@@ -3,6 +3,7 @@ title: 'New interior design trends and creating a timeless interior decor'
 description: 'Should interior designers follow trends, or focus on timeless spaces?'
 date: 2018-09-01
 permalink: '2018/9/new-interior-design-trends-and-creating-a-timeless-interior-decor'
+galleryKey: 'blog-trends'
 ---
 
 Every since I have been interested in interior design, I noticed how articles online or in interior magazines often write about the latest trends that are fashionable in the world of interiors. They even predict what will be the trends in a year from now.
