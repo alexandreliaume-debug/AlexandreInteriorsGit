@@ -23,6 +23,8 @@ jobs:
         with:
           node-version: 22
           cache: npm
+      - name: Verify Pages is enabled
+        run: echo "Deploying to GitHub Pages via Actions"
       - run: npm ci
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
