@@ -247,10 +247,6 @@ body:not(.transparent-header) .mobile-nav-toggle span,
 }
 
 /* Homepage */
-.index-hero {
-  padding: 180px 0 155px;
-}
-
 .home-intro {
   padding: 64px var(--site-padding) 24px;
   text-align: center;
