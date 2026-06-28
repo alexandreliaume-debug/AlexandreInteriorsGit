@@ -1,0 +1,20 @@
+---
+import Page from '../../layouts/Page.astro';
+
+const images = [
+  '/images/1500152481849-A64SNI83LKK6X83AGQV4/image-asset.jpeg',
+  '/images/1537714675585-UMU1KG1GMY645MLXGVYT/_45861528_eltham_virginia_coutauldsbedroom.jpg',
+];
+---
+
+<Page title="Hoxton Flat" heading="Hoxton flat refurbishment">
+  <p>Making a stylish and cosy home in London.</p>
+
+  <div class="gallery">
+    {images.map((src) => (
+      <img src={src} alt="Hoxton flat interior by Alexandre Interiors" loading="lazy" />
+    ))}
+  </div>
+
+  <p><a href="/portfolio">← Back to portfolio</a></p>
+</Page>

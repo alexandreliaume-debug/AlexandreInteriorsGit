@@ -1,0 +1,22 @@
+---
+import Page from '../layouts/Page.astro';
+
+const images = [
+  '/images/1573807337397-428DCP2PWVXFC1SIFFRN/MClayton_1707-9-PL-TEE_005__D-Lres.jpg',
+  '/images/1502467559673-VAYK1ALWFG2IJC5MKMGR/MClayton_1701-A-PERS-ALE_037_D-Lres.jpg',
+  '/images/1498472845344-X4LATOYKSK530GXNY1Z3/MClayton_1701-A-PERS-ALE_009_D-Lres.jpg',
+];
+---
+
+<Page title="Russell Square Flat" heading="Modern Art Deco style in this Russell Square flat">
+  <p><strong>Kitchen and bathrooms refurbishment</strong></p>
+  <p>A Russell Square apartment refreshed with Art Deco influences — practical kitchen and bathroom layouts with a refined, contemporary feel.</p>
+
+  <div class="gallery">
+    {images.map((src) => (
+      <img src={src} alt="Russell Square flat interior by Alexandre Interiors" loading="lazy" />
+    ))}
+  </div>
+
+  <p><a href="/portfolio">← Back to portfolio</a></p>
+</Page>

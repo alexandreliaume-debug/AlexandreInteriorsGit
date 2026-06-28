@@ -1,0 +1,42 @@
+---
+import Base from './Base.astro';
+import { getCollection } from 'astro:content';
+
+interface Props {
+  title: string;
+  date: Date;
+  description?: string;
+}
+
+const { title, date, description } = Astro.props;
+const posts = (await getCollection('blog'))
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<Base title={title} description={description}>
+  <article class="page-content">
+    <div class="container prose">
+      <header class="post-header">
+        <p class="meta">{date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+        <h1>{title}</h1>
+      </header>
+      <slot />
+    </div>
+  </article>
+
+  {posts.length > 1 && (
+    <section class="related-posts">
+      <div class="container">
+        <h2>More from the blog</h2>
+        <ul class="post-list">
+          {posts.slice(0, 4).map((post) => (
+            <li>
+              <a href={`/blog/${post.data.permalink}`}>{post.data.title}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+</Base>

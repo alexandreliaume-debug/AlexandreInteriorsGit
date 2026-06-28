@@ -1,0 +1,64 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'Personal and unique designs for living spaces. Interior design for homes, offices, restaurants and bars in London.' } = Astro.props;
+const fullTitle = title === 'Home' ? 'Alexandre Interiors' : `${title} — Alexandre Interiors`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" href="/images/1502979797795-KXFWRA4NXHJH3X5LST7Q/favicon.ico" />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).href} />
+    <title>{fullTitle}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="/">Alexandre Interiors</a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+        <nav class="site-nav" aria-label="Main">
+          <a href="/about">About</a>
+          <a href="/services">Services</a>
+          <a href="/portfolio">Portfolio</a>
+          <a href="/inspiration">Inspiration</a>
+          <a href="/blog">Blog</a>
+          <a href="/press">Press</a>
+          <a href="/contact-us">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Alexandre Liaume — Interior Designer, London</p>
+        <p>
+          <a href="mailto:alex@alexandreinteriors.com">alex@alexandreinteriors.com</a>
+          · <a href="https://instagram.com/alexandreinteriors" rel="noopener noreferrer">Instagram</a>
+          · <a href="https://www.houzz.co.uk/pro/alexandre-liaume/alexandre-liaume" rel="noopener noreferrer">Houzz</a>
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      const toggle = document.querySelector('.nav-toggle');
+      const nav = document.querySelector('.site-nav');
+      toggle?.addEventListener('click', () => {
+        const open = nav?.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', String(!!open));
+      });
+    </script>
+  </body>
+</html>
