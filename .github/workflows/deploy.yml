@@ -26,12 +26,7 @@ jobs:
       - name: Verify Pages is enabled
         run: echo "Deploying to GitHub Pages via Actions"
       - run: npm ci
-      - name: Build for GitHub Pages preview
-        run: npm run build
-        env:
-          # Remove these env vars when www.alexandreinteriors.com DNS points to GitHub Pages.
-          ASTRO_BASE: /AlexandreInteriorsGit
-          ASTRO_SITE: https://alexandreliaume-debug.github.io/AlexandreInteriorsGit
+      - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
