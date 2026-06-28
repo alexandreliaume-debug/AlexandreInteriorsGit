@@ -1,0 +1,20 @@
+---
+import pressItems from '../data/press.json';
+import { withBase } from '../lib/base';
+
+interface PressItem {
+  image: string;
+  href: string;
+  alt: string;
+}
+
+const items = pressItems as PressItem[];
+---
+
+<div class="press-grid page-width">
+  {items.map((item) => (
+    <a class="press-item" href={item.href.startsWith('http') ? item.href : withBase(item.href)} target={item.href.startsWith('http') ? '_blank' : undefined} rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}>
+      <img src={withBase(item.image)} alt={item.alt} loading="lazy" />
+    </a>
+  ))}
+</div>

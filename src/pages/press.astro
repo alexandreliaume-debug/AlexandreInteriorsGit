@@ -1,16 +1,10 @@
 ---
-import Page from '../layouts/Page.astro';
-import Gallery from '../components/Gallery.astro';
-import { getGallery } from '../lib/galleries';
-
-const images = getGallery('press');
+import Base from '../layouts/Base.astro';
+import PressGrid from '../components/PressGrid.astro';
 ---
 
-<Page title="Press" heading="Press">
-  <p>Alexandre's interior design work has featured in Houzz and Period Living.</p>
-  <ul>
-    <li><a href="https://www.houzz.co.uk/pro/alexandre-liaume/alexandre-liaume" rel="noopener noreferrer">Houzz profile</a></li>
-  </ul>
-
-  <Gallery images={images} alt="Press coverage for Alexandre Interiors" columns={2} />
-</Page>
+<Base title="Press" description="Press coverage for Alexandre Interiors in Houzz, Period Living, and Real Homes.">
+  <section class="press-page">
+    <PressGrid />
+  </section>
+</Base>

@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import { stripBase, withBase } from '../lib/base';
+import Footer from '../components/Footer.astro';
 
 interface Props {
   title: string;
@@ -26,7 +27,7 @@ const navItems = [
   { href: '/inspiration', label: 'Inspiration' },
   { href: '/blog', label: 'Blog' },
   { href: '/press', label: 'Press' },
-  { href: '/contact-us', label: 'Contact' },
+  { href: '/contact-us', label: 'Contact', button: true },
 ];
 
 const isActive = (href: string) => {
@@ -68,7 +69,7 @@ const isActive = (href: string) => {
 
         <nav id="mainNavigation" class="site-nav" aria-label="Main">
           {navItems.map((item) => (
-            <a href={withBase(item.href)} class:list={[{ active: isActive(item.href) }]}>
+            <a href={withBase(item.href)} class:list={[{ active: isActive(item.href), 'nav-button': item.button }]}>
               {item.label}
             </a>
           ))}
@@ -79,6 +80,8 @@ const isActive = (href: string) => {
     <main id="page" role="main">
       <slot />
     </main>
+
+    <Footer />
 
     <script>
       const header = document.getElementById('header');
