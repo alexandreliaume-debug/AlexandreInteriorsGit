@@ -1,395 +1,293 @@
 {
-  "pages": [
-    "https://www.alexandreinteriors.com/",
-    "https://www.alexandreinteriors.com/about",
-    "https://www.alexandreinteriors.com/services",
-    "https://www.alexandreinteriors.com/portfolio",
-    "https://www.alexandreinteriors.com/russell-square-flat",
-    "https://www.alexandreinteriors.com/portfolio/hoxton",
-    "https://www.alexandreinteriors.com/inspiration",
-    "https://www.alexandreinteriors.com/blog",
-    "https://www.alexandreinteriors.com/press",
-    "https://www.alexandreinteriors.com/contact-us",
-    "https://www.alexandreinteriors.com/blog/tag/Maison+%26+Objet",
-    "https://www.alexandreinteriors.com/blog/tag/Suppliers",
-    "https://www.alexandreinteriors.com/blog/combining-french-interiors-elegance-and-british-interiors-edge",
-    "https://www.alexandreinteriors.com/blog/tag/Interior+Design",
-    "https://www.alexandreinteriors.com/blog/2018/9/new-interior-design-trends-and-creating-a-timeless-interior-decor",
-    "https://www.alexandreinteriors.com/blog/sourcing-the-best-interior-suppliers-the-brands-that-impressed-me-at-maison-amp-objet",
-    "https://www.alexandreinteriors.com/s/AlexandreInteriors-PressArticle-October2018.pdf"
-  ],
+  "site": "https://www.alexandreinteriors.com",
   "images": [
     {
-      "url": "http://static1.squarespace.com/static/5950d1166a49632befa5c629/596a85b5bebafbf1776ad2ef/5ba79a79b208fc93f04377a9/1537714184242/ROOM2.jpg",
-      "path": "images/static/5950d1166a49632befa5c629-596a85b5bebafbf1776ad2ef-5ba79a79b208fc93f04377a9-1537714184242-ROOM2.jpg",
-      "bytes": 3290210,
-      "content_type": "image/jpeg",
-      "status": "downloaded"
-    },
-    {
-      "url": "http://static1.squarespace.com/static/5950d1166a49632befa5c629/596a85b5bebafbf1776ad2ef/5ba7a1b0f9619abf16878d6f/1537961266775/lidya-nada-638310-unsplash.jpg",
-      "path": "images/static/5950d1166a49632befa5c629-596a85b5bebafbf1776ad2ef-5ba7a1b0f9619abf16878d6f-1537961266775-lidya-nada-638310-unsplash.jpg",
-      "bytes": 655474,
-      "content_type": "image/jpeg",
-      "status": "downloaded"
-    },
-    {
-      "url": "http://static1.squarespace.com/static/5950d1166a49632befa5c629/596a85b5bebafbf1776ad2ef/5ba7a9a0652deafcd6fc1ff9/1537961165977/brigitte-tohm-351791-unsplash.jpg",
-      "path": "images/static/5950d1166a49632befa5c629-596a85b5bebafbf1776ad2ef-5ba7a9a0652deafcd6fc1ff9-1537961165977-brigitte-tohm-351791-unsplash.jpg",
-      "bytes": 1217699,
-      "content_type": "image/jpeg",
-      "status": "downloaded"
-    },
-    {
-      "url": "http://static1.squarespace.com/static/5950d1166a49632befa5c629/t/5b66bbf1562fa7f5d554b885/1533459443652/Alexandre-Interiors-White.png",
-      "path": "images/static/5950d1166a49632befa5c629-t-5b66bbf1562fa7f5d554b885-1533459443652-Alexandre-Interiors-White.png",
-      "bytes": 13071,
-      "content_type": "image/png",
-      "status": "downloaded"
-    },
-    {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1498472845344-X4LATOYKSK530GXNY1Z3/MClayton_1701-A-PERS-ALE_009_D-Lres.jpg",
       "path": "images/1498472845344-X4LATOYKSK530GXNY1Z3/MClayton_1701-A-PERS-ALE_009_D-Lres.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1498472845344-X4LATOYKSK530GXNY1Z3/MClayton_1701-A-PERS-ALE_009_D-Lres.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1500152481849-A64SNI83LKK6X83AGQV4/image-asset.jpeg",
+      "path": "images/1499964617619-MCSJSD3VZZJUNTAYDSXA/Houzz-logo.png",
+      "url": "https://www.alexandreinteriors.com/images/1499964617619-MCSJSD3VZZJUNTAYDSXA/Houzz-logo.png"
+    },
+    {
       "path": "images/1500152481849-A64SNI83LKK6X83AGQV4/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1500152481849-A64SNI83LKK6X83AGQV4/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1500152585660-WCFGRADL3DO9LL7LZ39S/Lima01.jpg",
       "path": "images/1500152585660-WCFGRADL3DO9LL7LZ39S/Lima01.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1500152585660-WCFGRADL3DO9LL7LZ39S/Lima01.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1500152764492-PBOQJZJV2LD7OYTO1SCR/image-asset.jpeg",
       "path": "images/1500152764492-PBOQJZJV2LD7OYTO1SCR/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1500152764492-PBOQJZJV2LD7OYTO1SCR/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1502467559673-VAYK1ALWFG2IJC5MKMGR/MClayton_1701-A-PERS-ALE_037_D-Lres.jpg",
       "path": "images/1502467559673-VAYK1ALWFG2IJC5MKMGR/MClayton_1701-A-PERS-ALE_037_D-Lres.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1502467559673-VAYK1ALWFG2IJC5MKMGR/MClayton_1701-A-PERS-ALE_037_D-Lres.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1502979797795-KXFWRA4NXHJH3X5LST7Q/favicon.ico",
       "path": "images/1502979797795-KXFWRA4NXHJH3X5LST7Q/favicon.ico",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1502979797795-KXFWRA4NXHJH3X5LST7Q/favicon.ico"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1517078617766-IOQ50G80CSWNZ21RQLYC/Screenshot+2018-01-27+18.32.43.png",
       "path": "images/1517078617766-IOQ50G80CSWNZ21RQLYC/Screenshot-2018-01-27-18.32.43.png",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1517078617766-IOQ50G80CSWNZ21RQLYC/Screenshot-2018-01-27-18.32.43.png"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1517083466013-NRQYM3M6FS5OX2FUYO2X/MClayton_1707-9-PL-TEE_027__D-Lres.jpg",
       "path": "images/1517083466013-NRQYM3M6FS5OX2FUYO2X/MClayton_1707-9-PL-TEE_027__D-Lres.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1517083466013-NRQYM3M6FS5OX2FUYO2X/MClayton_1707-9-PL-TEE_027__D-Lres.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1518258007383-JTXRYSNOIJE4WQ6QTIMX/MClayton_1701-A-PERS-ALE_030_D-Lres.jpg",
       "path": "images/1518258007383-JTXRYSNOIJE4WQ6QTIMX/MClayton_1701-A-PERS-ALE_030_D-Lres.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1518258007383-JTXRYSNOIJE4WQ6QTIMX/MClayton_1701-A-PERS-ALE_030_D-Lres.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1518258064648-GKFOFU38F7DXEF84KEVJ/MClayton_1707-9-PL-TEE_042__D-Lres.jpg",
       "path": "images/1518258064648-GKFOFU38F7DXEF84KEVJ/MClayton_1707-9-PL-TEE_042__D-Lres.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1518258064648-GKFOFU38F7DXEF84KEVJ/MClayton_1707-9-PL-TEE_042__D-Lres.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1533459442163-4PXFYJ3ZVVFMWKL3RP9J/Alexandre-Interiors-White.png",
       "path": "images/1533459442163-4PXFYJ3ZVVFMWKL3RP9J/Alexandre-Interiors-White.png",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1533459442163-4PXFYJ3ZVVFMWKL3RP9J/Alexandre-Interiors-White.png"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1537711041222-XZX2CFH36HZWEGKPSOQL/IMG_3214.jpg",
+      "path": "images/1535635438878-VFEFMS7OO205NK4HCN03/Period-Living-Magazine-October-2018-Issue-341.jpg",
+      "url": "https://www.alexandreinteriors.com/images/1535635438878-VFEFMS7OO205NK4HCN03/Period-Living-Magazine-October-2018-Issue-341.jpg"
+    },
+    {
       "path": "images/1537711041222-XZX2CFH36HZWEGKPSOQL/IMG_3214.jpg",
-      "bytes": 951963,
-      "content_type": "image/jpeg",
-      "status": "downloaded"
+      "url": "https://www.alexandreinteriors.com/images/1537711041222-XZX2CFH36HZWEGKPSOQL/IMG_3214.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1537711105893-5YOI1OTWUNIRN4CVF567/IMG_3112.jpg",
       "path": "images/1537711105893-5YOI1OTWUNIRN4CVF567/IMG_3112.jpg",
-      "bytes": 938233,
-      "content_type": "image/jpeg",
-      "status": "downloaded"
+      "url": "https://www.alexandreinteriors.com/images/1537711105893-5YOI1OTWUNIRN4CVF567/IMG_3112.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1537711160647-ITF3LLKZAOQFLVDNCBNE/IMG_3115.jpg",
       "path": "images/1537711160647-ITF3LLKZAOQFLVDNCBNE/IMG_3115.jpg",
-      "bytes": 844985,
-      "content_type": "image/jpeg",
-      "status": "downloaded"
+      "url": "https://www.alexandreinteriors.com/images/1537711160647-ITF3LLKZAOQFLVDNCBNE/IMG_3115.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1537711496615-E2J128VBYUUAJHYRC3TI/IMG_3089.jpg",
       "path": "images/1537711496615-E2J128VBYUUAJHYRC3TI/IMG_3089.jpg",
-      "bytes": 1429622,
-      "content_type": "image/jpeg",
-      "status": "downloaded"
+      "url": "https://www.alexandreinteriors.com/images/1537711496615-E2J128VBYUUAJHYRC3TI/IMG_3089.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1537711665260-E5P8AY1D0ZFEATZVHROP/ROOM2.jpg",
       "path": "images/1537711665260-E5P8AY1D0ZFEATZVHROP/ROOM2.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1537711665260-E5P8AY1D0ZFEATZVHROP/ROOM2.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1537712470233-G3OPWGFIY81IQS5FO0E6/debby-hudson-792875-unsplash.jpg",
       "path": "images/1537712470233-G3OPWGFIY81IQS5FO0E6/debby-hudson-792875-unsplash.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1537712470233-G3OPWGFIY81IQS5FO0E6/debby-hudson-792875-unsplash.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1537712590404-OJWNLBIVYX094HY7LNON/lidya-nada-638310-unsplash.jpg",
       "path": "images/1537712590404-OJWNLBIVYX094HY7LNON/lidya-nada-638310-unsplash.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1537712590404-OJWNLBIVYX094HY7LNON/lidya-nada-638310-unsplash.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1537712874282-V7HRDVPCJW5N8GP7DI7U/rawpixel-760097-unsplash.jpg",
       "path": "images/1537712874282-V7HRDVPCJW5N8GP7DI7U/rawpixel-760097-unsplash.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1537712874282-V7HRDVPCJW5N8GP7DI7U/rawpixel-760097-unsplash.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1537713017032-ZKZ0VYMGETLTBZIRVIEL/jon-tyson-512325-unsplash.jpg",
       "path": "images/1537713017032-ZKZ0VYMGETLTBZIRVIEL/jon-tyson-512325-unsplash.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1537713017032-ZKZ0VYMGETLTBZIRVIEL/jon-tyson-512325-unsplash.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1537714675585-UMU1KG1GMY645MLXGVYT/_45861528_eltham_virginia_coutauldsbedroom.jpg",
       "path": "images/1537714675585-UMU1KG1GMY645MLXGVYT/_45861528_eltham_virginia_coutauldsbedroom.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1537714675585-UMU1KG1GMY645MLXGVYT/_45861528_eltham_virginia_coutauldsbedroom.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1537714942273-60S9A7993UQU03FHJLZB/Frenchap%C3%A9ritif.jpg",
       "path": "images/1537714942273-60S9A7993UQU03FHJLZB/Frenchap-C3-A9ritif.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1537714942273-60S9A7993UQU03FHJLZB/Frenchap-C3-A9ritif.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1537715054221-EWEM1FCNSX06GQKNWNII/2288nedi-alleyways.jpg",
       "path": "images/1537715054221-EWEM1FCNSX06GQKNWNII/2288nedi-alleyways.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1537715054221-EWEM1FCNSX06GQKNWNII/2288nedi-alleyways.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1537715162330-M4PUE7VVLA50SSFKD40E/House-of-Hackney-9.jpg",
       "path": "images/1537715162330-M4PUE7VVLA50SSFKD40E/House-of-Hackney-9.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1537715162330-M4PUE7VVLA50SSFKD40E/House-of-Hackney-9.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1537715407341-TGA6DMPF6OG9GQCFSITP/414-best-provence-style-images-on-pinterest-provence-style.jpg",
       "path": "images/1537715407341-TGA6DMPF6OG9GQCFSITP/414-best-provence-style-images-on-pinterest-provence-style.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1537715407341-TGA6DMPF6OG9GQCFSITP/414-best-provence-style-images-on-pinterest-provence-style.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1537717035023-M63F3EXVP2WN7X970FNU/brigitte-tohm-351791-unsplash.jpg",
       "path": "images/1537717035023-M63F3EXVP2WN7X970FNU/brigitte-tohm-351791-unsplash.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1537717035023-M63F3EXVP2WN7X970FNU/brigitte-tohm-351791-unsplash.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1539611946465-Y08E9ADWBDU0N8L3MRKE/RealHomes-Interior_designer-London.jpg",
       "path": "images/1539611946465-Y08E9ADWBDU0N8L3MRKE/RealHomes-Interior_designer-London.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1539611946465-Y08E9ADWBDU0N8L3MRKE/RealHomes-Interior_designer-London.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1539612042823-GGPLXD0ZXPJ7YSDWLTK5/Screenshot+2018-10-15+15.00.30.png",
       "path": "images/1539612042823-GGPLXD0ZXPJ7YSDWLTK5/Screenshot-2018-10-15-15.00.30.png",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1539612042823-GGPLXD0ZXPJ7YSDWLTK5/Screenshot-2018-10-15-15.00.30.png"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1541430172192-M2KB9SBCOXIZT4NYLF5P/image-asset.jpeg",
       "path": "images/1541430172192-M2KB9SBCOXIZT4NYLF5P/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1541430172192-M2KB9SBCOXIZT4NYLF5P/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1541500043647-10F3PMJYG65XDMU07MKL/image-asset.jpeg",
       "path": "images/1541500043647-10F3PMJYG65XDMU07MKL/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1541500043647-10F3PMJYG65XDMU07MKL/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1541547257823-96UAYD4UFEWALXN06UKQ/image-asset.jpeg",
       "path": "images/1541547257823-96UAYD4UFEWALXN06UKQ/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1541547257823-96UAYD4UFEWALXN06UKQ/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1541671478163-9DTUUEHDU8VNE14RA3EO/image-asset.jpeg",
       "path": "images/1541671478163-9DTUUEHDU8VNE14RA3EO/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1541671478163-9DTUUEHDU8VNE14RA3EO/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1541752910301-D7SZN4Z0918KSLQ108NI/image-asset.jpeg",
       "path": "images/1541752910301-D7SZN4Z0918KSLQ108NI/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1541752910301-D7SZN4Z0918KSLQ108NI/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1542014333093-ZDB9863H5AOQYW1LESYJ/image-asset.jpeg",
       "path": "images/1542014333093-ZDB9863H5AOQYW1LESYJ/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1542014333093-ZDB9863H5AOQYW1LESYJ/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1542110386722-X2ZC13UKOQ8GG71UEGL2/image-asset.jpeg",
       "path": "images/1542110386722-X2ZC13UKOQ8GG71UEGL2/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1542110386722-X2ZC13UKOQ8GG71UEGL2/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1542205987329-13UFOCWGGBY7J46ZV0H4/image-asset.jpeg",
       "path": "images/1542205987329-13UFOCWGGBY7J46ZV0H4/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1542205987329-13UFOCWGGBY7J46ZV0H4/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1542451072122-P8E7EQ3R5UCB2IAMAEQ4/image-asset.jpeg",
       "path": "images/1542451072122-P8E7EQ3R5UCB2IAMAEQ4/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1542451072122-P8E7EQ3R5UCB2IAMAEQ4/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1542811830690-VTVO74KS4URRFSJZU9WA/MClayton_1707-9-PL-TEE_047_Interiors+of+flat_D-Lres.jpg",
       "path": "images/1542811830690-VTVO74KS4URRFSJZU9WA/MClayton_1707-9-PL-TEE_047_Interiors-of-flat_D-Lres.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1542811830690-VTVO74KS4URRFSJZU9WA/MClayton_1707-9-PL-TEE_047_Interiors-of-flat_D-Lres.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1542977349584-MGCKAML5UUOMGF18GUGV/image-asset.jpeg",
       "path": "images/1542977349584-MGCKAML5UUOMGF18GUGV/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1542977349584-MGCKAML5UUOMGF18GUGV/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1546272163817-YMY3JXXJE15E1EZ27X46/image-asset.jpeg",
       "path": "images/1546272163817-YMY3JXXJE15E1EZ27X46/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1546272163817-YMY3JXXJE15E1EZ27X46/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1547843040127-DJFVQ3XP2LO7EQNRZ5KV/image-asset.jpeg",
       "path": "images/1547843040127-DJFVQ3XP2LO7EQNRZ5KV/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1547843040127-DJFVQ3XP2LO7EQNRZ5KV/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1549732306298-LEFNRREXW4K0ETC1SRRB/image-asset.jpeg",
       "path": "images/1549732306298-LEFNRREXW4K0ETC1SRRB/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1549732306298-LEFNRREXW4K0ETC1SRRB/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1554482499430-2EDBI69EVPB0QZXNHWNK/image-asset.jpeg",
       "path": "images/1554482499430-2EDBI69EVPB0QZXNHWNK/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1554482499430-2EDBI69EVPB0QZXNHWNK/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1555299964180-3M39SZ9ETFM94B7O885R/image-asset.jpeg",
       "path": "images/1555299964180-3M39SZ9ETFM94B7O885R/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1555299964180-3M39SZ9ETFM94B7O885R/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1555517817921-21ZLJ5FPAI29OCCJQ5A5/image-asset.jpeg",
       "path": "images/1555517817921-21ZLJ5FPAI29OCCJQ5A5/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1555517817921-21ZLJ5FPAI29OCCJQ5A5/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1555607425042-44GYYK23F64J6UICDOG8/image-asset.jpeg",
       "path": "images/1555607425042-44GYYK23F64J6UICDOG8/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1555607425042-44GYYK23F64J6UICDOG8/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1557423918058-QE73DQ0NGT7P5D7TAHQY/image-asset.jpeg",
       "path": "images/1557423918058-QE73DQ0NGT7P5D7TAHQY/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1557423918058-QE73DQ0NGT7P5D7TAHQY/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1558283314179-LF4VHZ1BGUH9CJUX4IEJ/image-asset.jpeg",
       "path": "images/1558283314179-LF4VHZ1BGUH9CJUX4IEJ/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1558283314179-LF4VHZ1BGUH9CJUX4IEJ/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1558647728300-3Q7BIN0RS8T229SGMHRP/image-asset.jpeg",
       "path": "images/1558647728300-3Q7BIN0RS8T229SGMHRP/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1558647728300-3Q7BIN0RS8T229SGMHRP/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1563982101789-PPZBW7VGP9ZEC2M0SFN6/MClayton_1701-A-PERS-ALE_009_D-Lres.jpg",
       "path": "images/1563982101789-PPZBW7VGP9ZEC2M0SFN6/MClayton_1701-A-PERS-ALE_009_D-Lres.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1563982101789-PPZBW7VGP9ZEC2M0SFN6/MClayton_1701-A-PERS-ALE_009_D-Lres.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1563982132100-YI50VAD2KDFU70UUEAPN/Kitchen1.JPG",
-      "path": "images/1563982132100-YI50VAD2KDFU70UUEAPN/Kitchen1.JPG",
-      "status": "exists"
+      "path": "images/1563982132100-YI50VAD2KDFU70UUEAPN/Kitchen1.jpg",
+      "url": "https://www.alexandreinteriors.com/images/1563982132100-YI50VAD2KDFU70UUEAPN/Kitchen1.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1563982410782-BG6GINDRIVWYPQQKLJLE/PHOTO-2019-04-29-11-54-12.jpg",
       "path": "images/1563982410782-BG6GINDRIVWYPQQKLJLE/PHOTO-2019-04-29-11-54-12.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1563982410782-BG6GINDRIVWYPQQKLJLE/PHOTO-2019-04-29-11-54-12.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1563982449540-1V0AEU0ZF27ZIF2M52R4/Kitchen1.JPG",
-      "path": "images/1563982449540-1V0AEU0ZF27ZIF2M52R4/Kitchen1.JPG",
-      "status": "exists"
+      "path": "images/1563982449540-1V0AEU0ZF27ZIF2M52R4/Kitchen1.jpg",
+      "url": "https://www.alexandreinteriors.com/images/1563982449540-1V0AEU0ZF27ZIF2M52R4/Kitchen1.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1563982526277-JV4AJ71GZLEAE60R2O1M/Kitchen2.JPG",
-      "path": "images/1563982526277-JV4AJ71GZLEAE60R2O1M/Kitchen2.JPG",
-      "status": "exists"
+      "path": "images/1563982526277-JV4AJ71GZLEAE60R2O1M/Kitchen2.jpg",
+      "url": "https://www.alexandreinteriors.com/images/1563982526277-JV4AJ71GZLEAE60R2O1M/Kitchen2.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1563982547427-SSJ5ER0P4LB0AULSWIF8/Shower1.JPG",
-      "path": "images/1563982547427-SSJ5ER0P4LB0AULSWIF8/Shower1.JPG",
-      "status": "exists"
+      "path": "images/1563982547427-SSJ5ER0P4LB0AULSWIF8/Shower1.jpg",
+      "url": "https://www.alexandreinteriors.com/images/1563982547427-SSJ5ER0P4LB0AULSWIF8/Shower1.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1563982565982-2U8RDMR5C64J5GCJJ8GL/Ensuite1.JPG",
-      "path": "images/1563982565982-2U8RDMR5C64J5GCJJ8GL/Ensuite1.JPG",
-      "status": "exists"
+      "path": "images/1563982565982-2U8RDMR5C64J5GCJJ8GL/Ensuite1.jpg",
+      "url": "https://www.alexandreinteriors.com/images/1563982565982-2U8RDMR5C64J5GCJJ8GL/Ensuite1.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1573807257139-ACP8QBTR46RLGXZM0RBB/AlexandreInteriors-HoxtonFlat-LivingRoom.jpg",
       "path": "images/1573807257139-ACP8QBTR46RLGXZM0RBB/AlexandreInteriors-HoxtonFlat-LivingRoom.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1573807257139-ACP8QBTR46RLGXZM0RBB/AlexandreInteriors-HoxtonFlat-LivingRoom.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1573807337397-428DCP2PWVXFC1SIFFRN/MClayton_1707-9-PL-TEE_005__D-Lres.jpg",
       "path": "images/1573807337397-428DCP2PWVXFC1SIFFRN/MClayton_1707-9-PL-TEE_005__D-Lres.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1573807337397-428DCP2PWVXFC1SIFFRN/MClayton_1707-9-PL-TEE_005__D-Lres.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1573807403607-Y5KTFSEXUVKZAK1OUK3Q/MClayton_1707-9-PL-TEE_012__D-Lres.jpg",
       "path": "images/1573807403607-Y5KTFSEXUVKZAK1OUK3Q/MClayton_1707-9-PL-TEE_012__D-Lres.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1573807403607-Y5KTFSEXUVKZAK1OUK3Q/MClayton_1707-9-PL-TEE_012__D-Lres.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1573807458888-D0Q50N31VZA4G8SMDRB8/MClayton_1707-9-PL-TEE_014_Interiors+of+flat_D-Lres.jpg",
       "path": "images/1573807458888-D0Q50N31VZA4G8SMDRB8/MClayton_1707-9-PL-TEE_014_Interiors-of-flat_D-Lres.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1573807458888-D0Q50N31VZA4G8SMDRB8/MClayton_1707-9-PL-TEE_014_Interiors-of-flat_D-Lres.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1573807475271-HC6ZLMHZ19W989QZ7HGH/MClayton_1707-9-PL-TEE_015_Interiors+of+flat_D-Lres.jpg",
       "path": "images/1573807475271-HC6ZLMHZ19W989QZ7HGH/MClayton_1707-9-PL-TEE_015_Interiors-of-flat_D-Lres.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1573807475271-HC6ZLMHZ19W989QZ7HGH/MClayton_1707-9-PL-TEE_015_Interiors-of-flat_D-Lres.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1573807498006-04DPDM7M680QC7RNLG1X/MClayton_1707-9-PL-TEE_019__D-Lres.jpg",
       "path": "images/1573807498006-04DPDM7M680QC7RNLG1X/MClayton_1707-9-PL-TEE_019__D-Lres.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1573807498006-04DPDM7M680QC7RNLG1X/MClayton_1707-9-PL-TEE_019__D-Lres.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1573807518380-E6VQA7366CDEKY6A1AUZ/MClayton_1707-9-PL-TEE_023__D-Lres.jpg",
       "path": "images/1573807518380-E6VQA7366CDEKY6A1AUZ/MClayton_1707-9-PL-TEE_023__D-Lres.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1573807518380-E6VQA7366CDEKY6A1AUZ/MClayton_1707-9-PL-TEE_023__D-Lres.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1573807682314-MJIBAAK1A0REH7FNRRU2/image-asset.jpeg",
       "path": "images/1573807682314-MJIBAAK1A0REH7FNRRU2/image-asset.jpeg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1573807682314-MJIBAAK1A0REH7FNRRU2/image-asset.jpeg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1573807783108-KD2LHZPKG31WMFJDHRUG/MClayton_1707-9-PL-TEE_048_Interiors+of+flat_D-Lres.jpg",
       "path": "images/1573807783108-KD2LHZPKG31WMFJDHRUG/MClayton_1707-9-PL-TEE_048_Interiors-of-flat_D-Lres.jpg",
-      "status": "exists"
+      "url": "https://www.alexandreinteriors.com/images/1573807783108-KD2LHZPKG31WMFJDHRUG/MClayton_1707-9-PL-TEE_048_Interiors-of-flat_D-Lres.jpg"
     },
     {
-      "url": "https://images.squarespace-cdn.com/content/v1/5950d1166a49632befa5c629/1573807825820-GAUMOED9OVTGZSLW65BM/MClayton_1707-9-PL-TEE_035__D-Lres.jpg",
       "path": "images/1573807825820-GAUMOED9OVTGZSLW65BM/MClayton_1707-9-PL-TEE_035__D-Lres.jpg",
-      "status": "exists"
-    }
-  ],
-  "errors": [
+      "url": "https://www.alexandreinteriors.com/images/1573807825820-GAUMOED9OVTGZSLW65BM/MClayton_1707-9-PL-TEE_035__D-Lres.jpg"
+    },
     {
-      "url": "https://www.alexandreinteriors.com/blog/2018/10/9/how-to-make-your-bathroom-feel-like-a-spa",
-      "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+      "path": "images/static/5950d1166a49632befa5c629-596a85b5bebafbf1776ad2ef-5ba79a79b208fc93f04377a9-1537714184242-ROOM2.jpg",
+      "url": "https://www.alexandreinteriors.com/images/static/5950d1166a49632befa5c629-596a85b5bebafbf1776ad2ef-5ba79a79b208fc93f04377a9-1537714184242-ROOM2.jpg"
+    },
+    {
+      "path": "images/static/5950d1166a49632befa5c629-596a85b5bebafbf1776ad2ef-5ba7a1b0f9619abf16878d6f-1537961266775-lidya-nada-638310-unsplash.jpg",
+      "url": "https://www.alexandreinteriors.com/images/static/5950d1166a49632befa5c629-596a85b5bebafbf1776ad2ef-5ba7a1b0f9619abf16878d6f-1537961266775-lidya-nada-638310-unsplash.jpg"
+    },
+    {
+      "path": "images/static/5950d1166a49632befa5c629-596a85b5bebafbf1776ad2ef-5ba7a9a0652deafcd6fc1ff9-1537961165977-brigitte-tohm-351791-unsplash.jpg",
+      "url": "https://www.alexandreinteriors.com/images/static/5950d1166a49632befa5c629-596a85b5bebafbf1776ad2ef-5ba7a9a0652deafcd6fc1ff9-1537961165977-brigitte-tohm-351791-unsplash.jpg"
+    },
+    {
+      "path": "images/static/5950d1166a49632befa5c629-t-5b66bbf1562fa7f5d554b885-1533459443652-Alexandre-Interiors-White.png",
+      "url": "https://www.alexandreinteriors.com/images/static/5950d1166a49632befa5c629-t-5b66bbf1562fa7f5d554b885-1533459443652-Alexandre-Interiors-White.png"
     }
   ]
 }

@@ -30,10 +30,10 @@ Pushes to `main` automatically build and deploy via GitHub Actions (`.github/wor
 
 ## Project structure
 
-- `src/pages/` — site routes matching the original Squarespace URLs
+- `src/pages/` — site routes (URLs preserved from the previous site)
 - `src/content/blog/` — blog posts (markdown)
-- `public/images/` — migrated images from the live site
-- `legacy/` — original Squarespace Bedford template export (reference only)
+- `public/images/` — site images
+- `scripts/crawl_images.py` — optional audit of image references on the live site
 
 ## URL map
 

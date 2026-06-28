@@ -1,4 +1,4 @@
-/* Bedford / Squarespace design tokens */
+/* Site design tokens */
 :root {
   --font-body: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --header-bg: #1b1b1b;
@@ -549,7 +549,7 @@ body:not(.transparent-header) .mobile-nav-toggle span,
   padding: 180px 0 155px;
 }
 
-/* Centered navigation like Bedford template */
+/* Centered navigation */
 @media (min-width: 769px) {
   .header-inner {
     justify-content: center;

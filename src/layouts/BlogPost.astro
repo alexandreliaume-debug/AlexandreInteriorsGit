@@ -21,7 +21,7 @@ const posts = (await getCollection('blog'))
 
 <Base title={title} description={description}>
   <div class="main-content">
-    <div class="sqs-layout page-width">
+    <div class="page-layout page-width">
       <article class="prose">
         <header class="post-header">
           <p class="meta">{date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
