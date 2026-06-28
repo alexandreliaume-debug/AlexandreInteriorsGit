@@ -1,6 +1,7 @@
 ---
 import Page from '../../layouts/Page.astro';
 import { getCollection } from 'astro:content';
+import { withBase } from '../../lib/base';
 
 const posts = (await getCollection('blog'))
   .filter((post) => !post.data.draft)
@@ -12,7 +13,7 @@ const posts = (await getCollection('blog'))
     {posts.map((post) => (
       <li>
         <p class="meta">{post.data.date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
-        <a href={`/blog/${post.data.permalink}`}>{post.data.title}</a>
+        <a href={withBase(`/blog/${post.data.permalink}`)}>{post.data.title}</a>
         {post.data.description && <p>{post.data.description}</p>}
       </li>
     ))}

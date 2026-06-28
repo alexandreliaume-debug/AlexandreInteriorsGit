@@ -1,4 +1,6 @@
 ---
+import { withBase } from '../lib/base';
+
 interface Props {
   image: string;
   alt?: string;
@@ -6,12 +8,13 @@ interface Props {
 }
 
 const { image, alt = '', tall = true } = Astro.props;
+const src = withBase(image);
 ---
 
 <div class:list={['banner-thumbnail-wrapper', 'has-description', { tall }]}>
   <div class="color-overlay"></div>
   <figure class="banner-figure">
-    <img src={image} alt={alt} />
+    <img src={src} alt={alt} />
   </figure>
   <div class="desc-wrapper">
     <slot />

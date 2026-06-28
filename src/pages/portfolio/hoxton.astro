@@ -2,6 +2,7 @@
 import Page from '../../layouts/Page.astro';
 import Gallery from '../../components/Gallery.astro';
 import { getGallery } from '../../lib/galleries';
+import { withBase } from '../../lib/base';
 
 const images = getGallery('hoxton');
 ---
@@ -19,5 +20,5 @@ const images = getGallery('hoxton');
 
   <Gallery images={images} alt="Hoxton flat interior by Alexandre Interiors" columns={3} />
 
-  <p><a href="/portfolio">← Back to portfolio</a></p>
+  <p><a href={withBase('/portfolio')}>← Back to portfolio</a></p>
 </Page>

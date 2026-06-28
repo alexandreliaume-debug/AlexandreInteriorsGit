@@ -1,5 +1,6 @@
 ---
 import Page from '../layouts/Page.astro';
+import { withBase } from '../lib/base';
 
 const projects = [
   {
@@ -21,12 +22,12 @@ const projects = [
   <div class="portfolio-grid">
     {projects.map((project) => (
       <article class="portfolio-item">
-        <a href={project.href}>
-          <img src={project.image} alt={project.title} loading="lazy" />
+        <a href={withBase(project.href)}>
+          <img src={withBase(project.image)} alt={project.title} loading="lazy" />
         </a>
-        <h3><a href={project.href}>{project.title}</a></h3>
+        <h3><a href={withBase(project.href)}>{project.title}</a></h3>
         <p>{project.text}</p>
-        <p><a href={project.href}>View photos</a></p>
+        <p><a href={withBase(project.href)}>View photos</a></p>
       </article>
     ))}
   </div>

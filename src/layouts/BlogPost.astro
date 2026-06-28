@@ -3,6 +3,7 @@ import Base from './Base.astro';
 import { getCollection } from 'astro:content';
 import Gallery from '../components/Gallery.astro';
 import { getGallery } from '../lib/galleries';
+import { withBase } from '../lib/base';
 
 interface Props {
   title: string;
@@ -36,7 +37,7 @@ const posts = (await getCollection('blog'))
           <ul class="post-list">
             {posts.slice(0, 5).map((post) => (
               <li>
-                <a href={`/blog/${post.data.permalink}`}>{post.data.title}</a>
+                <a href={withBase(`/blog/${post.data.permalink}`)}>{post.data.title}</a>
               </li>
             ))}
           </ul>

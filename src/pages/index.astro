@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Banner from '../components/Banner.astro';
+import { withBase } from '../lib/base';
 
 const services = [
   {
@@ -26,7 +27,7 @@ const services = [
     <Banner image="/images/1498472845344-X4LATOYKSK530GXNY1Z3/MClayton_1701-A-PERS-ALE_009_D-Lres.jpg" alt="Alexandre Interiors portfolio" tall={false}>
       <p>Alexandre Liaume - Interior Designer</p>
       <p><strong>Personal and unique designs for living spaces.</strong></p>
-      <p><a href="/portfolio">View My Work</a></p>
+      <p><a href={withBase('/portfolio')}>View My Work</a></p>
     </Banner>
   </section>
 
@@ -37,7 +38,7 @@ const services = [
   <section class="service-columns page-width">
     {services.map((service) => (
       <article class="service-column">
-        <img src={service.image} alt={service.title} loading="lazy" />
+        <img src={withBase(service.image)} alt={service.title} loading="lazy" />
         <h3>{service.title}</h3>
         <p>{service.text}</p>
       </article>
